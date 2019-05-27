@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7775922b-13ad-46d7-8902-89a1dbbe7673" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="7775922b-13ad-46d7-8902-89a1dbbe7673" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +12,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -53,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="1258" column="61" lean-forward="false" selection-start-line="1258" selection-start-column="61" selection-end-line="1258" selection-end-column="61" />
+            <state relative-caret-position="47">
+              <caret line="1257" column="16" lean-forward="true" selection-start-line="1257" selection-start-column="16" selection-end-line="1257" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -129,8 +127,8 @@
         <option value="$USER_HOME$/Desktop/fa.js" />
         <option value="$PROJECT_DIR$/js/easing.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -297,12 +295,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558687017600</updated>
       <workItem from="1558687018778" duration="3981000" />
-      <workItem from="1558860998551" duration="31125000" />
+      <workItem from="1558860998551" duration="31345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35106000" />
+    <option name="totallyTimeSpent" value="35326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="0" />
@@ -500,14 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="1258" column="61" lean-forward="false" selection-start-line="1258" selection-start-column="61" selection-end-line="1258" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -540,6 +530,14 @@
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="1257" column="16" lean-forward="true" selection-start-line="1257" selection-start-column="16" selection-end-line="1257" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
