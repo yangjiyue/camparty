@@ -1231,13 +1231,12 @@ a.button {
 
 .dodecagon-bg.t1,
 .octagon-bg.t1,
-.dodecagon-bg.t2,
-.octagon-bg.t2,
+
 .dodecagon-bg.t3,
 .octagon-bg.t3,
 .dodecagon-bg.t4,
 .octagon-bg.t4 {
-    background: url(https://s2.ax1x.com/2019/05/27/VZKZGt.jpg) no-repeat 0px 0px;
+    background: url(https://s2.ax1x.com/2019/05/27/VZhWwV.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1247,17 +1246,32 @@ a.button {
 
 .dodecagon-bg.t2,
 .octagon-bg.t2 {
-    background: url(https://s2.ax1x.com/2019/05/27/VZKeRP.jpg) no-repeat 0px 0px;
+    background: url(https://s2.ax1x.com/2019/05/27/VZ4MXn.md.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
 }
 
 .dodecagon-bg.t3,
 .octagon-bg.t3 {
     background: url(https://s2.ax1x.com/2019/05/27/VZKuM8.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
 }
 
 .dodecagon-bg.t4,
 .octagon-bg.t4 {
-    background: url(https://s2.ax1x.com/2019/05/27/VZKmxf.jpg) no-repeat 0px 0px;
+    background: url(https://s2.ax1x.com/2019/05/27/VZ51vd.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
 }
 
 .dodecagon.t2 {
@@ -1826,26 +1840,26 @@ ul.social-nav.model-3d-0.footer-social.social.two {
     backface-visibility: hidden;
 }
 
-a.twitter .front {
+a.email .front {
     background: #00acee;
 }
 
-a.facebook .front {
+a.qq .front {
     background: #3b5998;
 }
 
-a.instagram .front {
+a.zhifubao .front {
     background: #f77737;
 }
 
-a.pinterest .front {
+a.weibo .front {
     background: #bd081c;
 }
 
-.twitter .back,
-.facebook .back,
-.instagram .back,
-.pinterest .back {
+.weibo .back,
+.zhifubao .back,
+.qq .back,
+.email .back {
     background: #fff;
 }
 
@@ -2957,3 +2971,123 @@ p.read_para i {
 }
 
 /*--//responsive--*/
+body{
+    margin:0;
+    padding:0;
+}
+#Choco_overlay{
+    background: #0a0a0a !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display:none;
+    padding:0;
+    margin:0;
+}
+#Choco_content{
+    display:none;
+    width:800px;
+    height:600px;
+    z-index:1001;
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-400px;
+    margin-top:-300px;
+    border-top:1px solid transparent;/*Yes, adjust image perfectly at the center of a box, don't know why.*/
+}
+#Choco_left_arrow{
+    float:left;
+    background-image:url(https://s2.ax1x.com/2019/05/27/VZKAIA.png)!important;
+    background-position:12%;
+    left:-20%;
+}
+#Choco_right_arrow{
+    float:right;
+    background-image:url(https://s2.ax1x.com/2019/05/27/VZKKsS.png)!important;
+    background-position:88%;
+    left:20%;
+}
+.Choco_arrows{
+    background-repeat:no-repeat;
+    display:none;
+    position:relative;
+    cursor:pointer;
+    width:49%;
+    top:-100%;
+    height:100%;
+    margin-top:-30px;
+}
+#Choco_container_photo{
+    text-align:center;
+    width:800px;
+    height:600px;
+    /*background:url(../images/ajax-loader.gif) center center no-repeat;*/
+}
+#Choco_container_description{
+    padding:0;
+    height:26px;
+    width:100%;
+    color:#FFFFFF;
+    font-family:Tahoma;
+    clear:both;
+    position:relative;
+    font-size:12px;
+    margin-top:-5px;
+    overflow:hidden;
+    visibility:hidden;
+}
+#Choco_container_title{
+    float:left;
+    padding:5px;
+}
+#Choco_container_via{
+    padding:5px;
+    float:right;
+}
+#Choco_container_via a{
+    color:gray;
+}
+#Choco_container_via a:hover{
+    color:white;
+    background:gray;
+}
+#Choco_close{
+    width:32px;
+    height:32px;
+    background-image:url(https://s2.ax1x.com/2019/05/27/VZurgf.png)!important;
+    background-repeat:no-repeat;
+    z-index:1002;
+    cursor:pointer;
+    margin: 0px 0px 15px 0px;
+    display:none;
+}
+#Choco_loading{
+    width:9px;
+    height:11px;
+    background-image:url(https://s2.ax1x.com/2019/05/27/VZ1pYd.gif);
+    background-repeat:no-repeat;
+    z-index:1002;
+    cursor:pointer;
+    float:right;
+    margin-top:-20px;
+    display:none;
+}
+#Choco_bigImage{
+    display:none;
+    position:relative;
+    width:100%;
+    height:100%;
+    margin-top:-5px;
+}
+@media(max-width:800px){
+    #Choco_right_arrow {
+        left: 15%;
+    }
+    #Choco_left_arrow {
+        left: -15%;
+    }
+}
