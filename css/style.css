@@ -1563,11 +1563,21 @@ ol.carousel-indicators.two {
 .dodecagon-bg.c2,
 .octagon-bg.c2 {
     background: url(https://s2.ax1x.com/2019/05/27/VZuX5R.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
 }
 
 .dodecagon-bg.c3,
 .octagon-bg.c3 {
     background: url(https://s2.ax1x.com/2019/05/27/VZuX5R.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
 }
 
 .dodecagon.c1,
